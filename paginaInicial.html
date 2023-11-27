@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+</head>
+<link rel="stylesheet" href="meucss.css" type="text/css" media="all"/>
+<body>
+    <div id="principal1">
+        <div id="titulo">
+            <h1>Biblioteca Literária Maravilivros</h1>
+        </div>
+        <div id="form">
+            <h3>Entre na sua conta</h3>
+            <form id="cadastroform" onsubmit="return validarFomr();" action="principal.html" method="post">
+                <label for="login">Login:</label>
+                <input type="text" id="login" name="login" required/><br><br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha">
+                
+                <input type="checkbox" id="mostrarsenha">
+                <label for="mostrarsenha">Mostrar Senha</label><br>
+                
+                <button id="ocultarsenha" style="display: none">Ocultar Senha</button><br>
+
+                <label for="confirmarsenha">Confirmar Senha:</label>
+                <input type="password" id="confirmarsenha" name="confirmarsenha" required minlength="8" maxlength="12"/>
+                
+                <input type="checkbox" id="mostrarsenha2">
+                <label for="mostrarsenha">Mostrar Senha</label><br>
+                
+                <button id="ocultarsenha2" style="display: none">Ocultar Senha</button><br>
+
+                <input type="submit" value="Entrar"/>
+                <input type="reset" value="Limpar"/><br>
+                <h5>não tem uma conta? <a id="cd" href="cadastro.html">Cadastra-se</a></h5>
+            </form>
+
+            <script>
+                function validarFomr(){
+                    const login = document.getElementById("login").value;
+                    const senha = document.getElementById("senha").value;
+                    const confirmarsenha = document.getElementById("confirmarsenha").value;
+                   
+                    if(login === "" || senha === "" || confirmarsenha===""){
+                        alert("Por favor, preencha todos os campos!");
+                        return false;
+                    }
+                    if(senha !== confirmarsenha){
+                        alert("As senhas precisam ser iguais.");
+                        return false;
+                    }
+                    if(senha.length < 8 || senha.length > 12){
+                        alert("A senha deve conter entre 8 e 12 caracteres.");
+                        return false;
+                    }
+
+                    return true;
+                }
+            </script>
+
+            <script>
+                    const mostrarsenha = document.getElementById("mostrarsenha");
+                    const senha = document.getElementById("senha");
+                    const ocultarsenha = document.getElementById("ocultarsenha");
+  
+                    mostrarsenha.addEventListener("change", function() {
+                        if (mostrarsenha.checked) {
+                            senha.type = "text";
+                            ocultarsenha.style.display = "block";
+                        } else {
+                            senha.type = "password";
+                            ocultarsenha.style.display = "none";
+                        }
+                    });
+  
+                    ocultarsenha.addEventListener("click", function() {
+                        mostrarsenha.checked = false;
+                        senha.type = "password";
+                        ocultarsenha.style.display = "none";
+                    });
+            </script>
+
+            <script>
+                const Mostrarsenha = document.getElementById("mostrarsenha2");
+                const confirmarsenha = document.getElementById("confirmarsenha");
+                const Ocultarsenha = document.getElementById("ocultarsenha2");
+
+                 Mostrarsenha.addEventListener("change", function() {
+                if (Mostrarsenha.checked) {
+                  confirmarsenha.type = "text";
+                  Ocultarsenha.style.display = "block";
+                } else {
+                  confirmarsenha.type = "password";
+                 Ocultarsenha.style.display = "none";
+                 }
+                });
+
+                Ocultarsenha.addEventListener("click", function() {
+                Mostrarsenha.checked = false;
+                confirmarsenha.type = "password";
+                Ocultarsenha.style.display = "none";
+                });
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>

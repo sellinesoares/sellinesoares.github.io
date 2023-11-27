@@ -1,0 +1,164 @@
+body{
+    background: url(imagens/inicio.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#titulo{
+    color:white;
+    background-color: #56321C;
+    text-align: center;
+}
+
+#titulo h1{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#form{
+    color:white;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+    background-color: #56321C;
+}
+
+#form1{
+    color:white;
+    background-color: #56321C;
+    align-items: center;
+    justify-content: center;    
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top: 15%;
+}
+#form1 h3{
+	color: white;
+}
+
+a{
+    text-decoration: none;
+	color:white;
+}
+#cd{
+	text-decoration: none;
+	color:white;
+}
+#form h3{
+	color: white;
+}
+#menu1 {
+	float: left;
+	width: 165px;
+	border-right: 1px solid white;
+	padding-left: 15px;	
+}
+#menu1 ul{
+    list-style: none;
+}
+#menu1 ul li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	background-color: #935b30;
+	padding: 5px;
+	margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+#menu2{
+    float: right;
+    width: 158px;
+    border-left: 1px solid white;
+    padding-right: 15px;
+}
+
+#menu2 p{
+    color: white;
+    margin-left: 5%;
+}
+
+#livro{
+    width: 132px;
+}
+
+#principal{
+margin: 1em auto;
+width: 800px;
+text-align: left;
+background: #fff;
+border: 1px solid #676767;
+}
+
+#cabecalho {
+	height: 45px;
+	width: 100%;
+	position: relative;
+	background-color: #935b30;
+	border-bottom: 1px solid #fff;
+}
+
+#menuLeft {
+	float: right;
+	width: 165px;
+	border-left: 1px solid #331a07;
+	padding-left: 15px;	
+}
+
+#menuLeft a{
+	color: #331a07;
+}
+
+#conteudo {
+	float: left;
+	width: 550px;
+	margin: 0px 0px 0px 20px;
+	text-align: justify;
+}
+
+#conteudo a{
+	color: #331a07;
+}
+
+#rodape {
+	clear: both;
+	color: white;
+	text-align: right;
+	font-size: 90%;
+	background: #935b30;
+	padding: 5px;
+}
+
+.image {
+	float: right;
+	width: 150px;
+	border: 1px solid #56321C;
+	padding: 2px;
+	margin: 0px 0px 10px 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em;
+}
+
+h2 {
+	font: 140% georgia, times, "times new roman", 
+		serif; 
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+h3 {
+	color: black;
+	font: 110% georgia, times, "times new roman", serif;
+} 
+
+#conteudo p {
+		line-height: 165%;
+}
