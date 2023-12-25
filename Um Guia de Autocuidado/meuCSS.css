@@ -1,0 +1,212 @@
+/*DISPOSITIVOS COM MENOS DE 768PX*/
+body{
+    background: #f5bce4;/*alterando a cor de fundo de todo o corpo da página*/
+    font-family: 'times new roman';
+    color: black;
+}
+
+.rodape{
+    text-align: right;/*alinhando o texto à direita*/
+    background-color: #f593d8; /*alterando a cor de fundo do rodapé*/
+}
+
+.line{/*linha vertical presente nas páginas*/
+    background-color: #e0079f;/*dando uma cor a linha*/
+    height:5px;/*espessura da linha*/
+}
+
+.menu-lateral{
+    float: left;/*alinhano o menu na direita*/
+    position: fixed;/*deixando a posicção fixada*/
+    border-right: 1px solid #e0079f;/*cor,expessura e cor da linha horizontal */
+    margin: 15px;/*margins de 15px*/
+    width: 17%;/*mudando a tamanho do menu para ocupar apenas 10% da tela*/
+}
+
+.principal{
+    background-color: #ffc3ed;/*alterando a cor do fundo da da classe principal*/
+    border-radius: 5px;/*deixando a borda arredondada*/
+    width: 80%;/*deixando que a classe ocupe apenas 80% da tela*/
+    margin: 15px;/*as margins em 15px*/
+    float: right;/*alinhando na esquerda*/
+}
+
+.carousel-inner{
+    width: 600px;/*tamanho do carousel*/
+    margin-left: 25%;/*alterando as margins da esqueda para ele ficar centralizado*/
+}
+
+.nav a.nav-link.active{
+    background-color: #ff95df;/*alterando a cor da nav que está ativa*/
+    color: white;/*font da nav ativa*/
+}
+
+.nav-item a{
+    color: black;/*alterando a font dos textos dentro das navs não ativas - na página atual*/
+}
+
+.btn.btn{
+    background-color: #ff95df;/*alterando a cor dos botões presentes nas páginas*/
+    color: black;/*cor do texto dos botões*/
+}
+
+/*DISPOSITIVOS COM NO MIN. 768PX E NO MAX. 992PX*/
+@media(min-width: 769px ) and (max-width:992px){
+    body{
+        background: #f5bce4;/*alterando a cor de fundo de todo o corpo da página*/
+        font-family: 'times new roman';
+        color: black;
+    }
+    
+    .rodape{
+        text-align: right;/*alinhando o texto à direita*/
+        background-color: #f593d8; /*alterando a cor de fundo do rodapé*/
+    }
+    
+    .line{/*linha vertical presente nas páginas*/
+        background-color: #e0079f;/*dando uma cor a linha*/
+        height:5px;/*espessura da linha*/
+    }
+    
+    .menu-lateral{
+        float: left;/*alinhano o menu na direita*/
+        position: fixed;/*deixando a posicção fixada*/
+        border-right: 1px solid #e0079f;/*cor,expessura e cor da linha horizontal */
+        margin: 15px;/*margins de 15px*/
+        width: 17%;/*mudando a tamanho do menu para ocupar apenas 10% da tela*/
+    }
+    
+    .principal{
+        background-color: #ffc3ed;/*alterando a cor do fundo da da classe principal*/
+        border-radius: 5px;/*deixando a borda arredondada*/
+        width: 80%;/*deixando que a classe ocupe apenas 80% da tela*/
+        margin: 15px;/*as margins em 15px*/
+        float: right;/*alinhando na esquerda*/
+    }
+    
+    .carousel-inner{
+        width: 600px;/*tamanho do carousel*/
+        margin-left: 25%;/*alterando as margins da esqueda para ele ficar centralizado*/
+    }
+    
+    .nav a.nav-link.active{
+        background-color: #ff95df;/*alterando a cor da nav que está ativa*/
+        color: white;/*font da nav ativa*/
+    }
+    
+    .nav-item a{
+        color: black;/*alterando a font dos textos dentro das navs não ativas - na página atual*/
+    }
+    
+    .btn.btn{
+        background-color: #ff95df;/*alterando a cor dos botões presentes nas páginas*/
+        color: black;/*cor do texto dos botões*/
+    }
+}
+
+/*DISPOSITIVOS COM NO MIN. 992PX E NO MAX. 1200PX*/
+@media(min-width: 993px) and (max-width:1199px){
+    body{
+        background: #f5bce4;/*alterando a cor de fundo de todo o corpo da página*/
+        font-family: 'times new roman';
+        color: black;
+    }
+    
+    .rodape{
+        text-align: right;/*alinhando o texto à direita*/
+        background-color: #f593d8; /*alterando a cor de fundo do rodapé*/
+    }
+    
+    .line{/*linha vertical presente nas páginas*/
+        background-color: #e0079f;/*dando uma cor a linha*/
+        height:5px;/*espessura da linha*/
+    }
+    
+    .menu-lateral{
+        float: left;/*alinhano o menu na direita*/
+        position: fixed;/*deixando a posicção fixada*/
+        border-right: 1px solid #e0079f;/*cor,expessura e cor da linha horizontal */
+        margin: 15px;/*margins de 15px*/
+        width: 17%;/*mudando a tamanho do menu para ocupar apenas 10% da tela*/
+    }
+    
+    .principal{
+        background-color: #ffc3ed;/*alterando a cor do fundo da da classe principal*/
+        border-radius: 5px;/*deixando a borda arredondada*/
+        width: 80%;/*deixando que a classe ocupe apenas 80% da tela*/
+        margin: 15px;/*as margins em 15px*/
+        float: right;/*alinhando na esquerda*/
+    }
+    
+    .carousel-inner{
+        width: 600px;/*tamanho do carousel*/
+        margin-left: 25%;/*alterando as margins da esqueda para ele ficar centralizado*/
+    }
+    
+    .nav a.nav-link.active{
+        background-color: #ff95df;/*alterando a cor da nav que está ativa*/
+        color: white;/*font da nav ativa*/
+    }
+    
+    .nav-item a{
+        color: black;/*alterando a font dos textos dentro das navs não ativas - na página atual*/
+    }
+    
+    .btn.btn{
+        background-color: #ff95df;/*alterando a cor dos botões presentes nas páginas*/
+        color: black;/*cor do texto dos botões*/
+    }
+}
+
+@media(min-width:1200px){
+    body{
+        background: #f5bce4;/*alterando a cor de fundo de todo o corpo da página*/
+        font-family: 'times new roman';
+        color: black;
+    }
+    
+    .rodape{
+        text-align: right;/*alinhando o texto à direita*/
+        background-color: #f593d8; /*alterando a cor de fundo do rodapé*/
+    }
+    
+    .line{/*linha vertical presente nas páginas*/
+        background-color: #e0079f;/*dando uma cor a linha*/
+        height:5px;/*espessura da linha*/
+    }
+    
+    .menu-lateral{
+        float: left;/*alinhano o menu na direita*/
+        position: fixed;/*deixando a posicção fixada*/
+        border-right: 1px solid #e0079f;/*cor,expessura e cor da linha horizontal */
+        margin: 15px;/*margins de 15px*/
+        width: 17%;/*mudando a tamanho do menu para ocupar apenas 10% da tela*/
+    }
+    
+    .principal{
+        background-color: #ffc3ed;/*alterando a cor do fundo da da classe principal*/
+        border-radius: 5px;/*deixando a borda arredondada*/
+        width: 80%;/*deixando que a classe ocupe apenas 80% da tela*/
+        margin: 15px;/*as margins em 15px*/
+        float: right;/*alinhando na esquerda*/
+    }
+    
+    .carousel-inner{
+        width: 600px;/*tamanho do carousel*/
+        margin-left: 25%;/*alterando as margins da esqueda para ele ficar centralizado*/
+    }
+    
+    .nav a.nav-link.active{
+        background-color: #ff95df;/*alterando a cor da nav que está ativa*/
+        color: white;/*font da nav ativa*/
+    }
+    
+    .nav-item a{
+        color: black;/*alterando a font dos textos dentro das navs não ativas - na página atual*/
+    }
+    
+    .btn.btn{
+        background-color: #ff95df;/*alterando a cor dos botões presentes nas páginas*/
+        color: black;/*cor do texto dos botões*/
+    }
+}
