@@ -1,0 +1,29 @@
+body{
+background-color: black;
+font-family: 'times new roman';
+color: white;
+}
+
+.rodape{
+    background-color: rgb(88, 87, 87);
+    text-align: right;
+    padding: 5px;
+    font-size: 90%;
+}
+
+.center{
+    margin: 1em auto;
+    width: 1100px;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.liner{
+    background-color: white;
+    height: 4px;
+}
+
+.col{
+    color: black;
+}
